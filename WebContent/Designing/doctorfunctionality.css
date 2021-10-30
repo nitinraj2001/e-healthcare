@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+.purple{
+	
+	background-color:lightgreen;
+	
+}
+
+*{
+	
+	padding:0;
+	
+	margin:0;
+	
+	
+}
+
+body{
+	
+	height:100%;
+	
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Images/doctors.jpg");
+	
+	background-size: cover;
+	
+	background-position: center;
+	
+	background-attachment: fixed;
+	
+	
+	
+	
+}
+
+body{
+	
+	padding-top:20px;
+	
+	text-align:center;
+	
+	color:#fff;
+	
+	padding-bottom:120px;
+	
+	
+	
+}

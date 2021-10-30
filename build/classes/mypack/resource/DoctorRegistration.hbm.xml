@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+ <hibernate-mapping>
+ 
+ <class name="mypack.entity.DoctorRegistration" table="Doctorregister">
+ 
+     <id name="doctor_id">
+     
+     <generator class="increment"></generator>
+     
+     </id>
+     
+    
+     
+     <property name="doctor_name"></property>
+     
+        <property name="doctor_email"></property>
+     
+      <property name="doctor_password"></property>
+      
+      <property name="doctor_resetpassword"></property>
+      
+       <property name="doctor_gender"></property>
+       
+     
+         <property name="doctor_department"></property>
+         
+          <property name="doctor_degree"></property>
+          
+           <property name="doctor_age"></property>
+           
+            <property name="doctor_contactno" ></property>
+      
+    
+ 
+ </class>
+ 
+ </hibernate-mapping>

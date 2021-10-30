@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+ <hibernate-mapping>
+ 
+ <class name="mypack.entity.PatientBookAppointment" table="patientappointment">
+ 
+     <id name="pat_id">
+     
+     <generator class="increment"></generator>
+     
+     </id>
+     
+     <property name="pat_name"></property>
+     
+      <property name="pat_age"></property>
+      
+       <property name="pat_email"></property>
+       
+        <property name="pat_contact"></property>
+        
+         <property name="pat_gender"></property>
+         
+           <property name="pat_doc_select"></property>
+           
+             <property name="pat_med_history"></property>
+             
+               <property name="purpose_appoint"></property>
+               
+                 <property name="appoint_before"></property>
+                 
+                   <property name="appoint_day"></property>
+                   
+                     <property name="appoint_slot"></property>
+                     
+                       <property name="doc_visit"></property>
+                       
+                       <property name="home_visit"></property>
+                       
+                       <property name="covid_status"></property>
+                       
+                           <property name="quantanine_status"></property>
+         
+         
+     </class>
+     
+     
+     </hibernate-mapping>
+    

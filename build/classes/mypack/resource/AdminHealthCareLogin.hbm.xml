@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+ <hibernate-mapping>
+ 
+ <class name="mypack.entity.AdminHealthCareLogin" table="AdminHealthcareLogin">
+ 
+     <id name="admin_id">
+     
+     <generator class="increment"></generator>
+     
+     </id>
+     
+    
+     
+     <property name="admin_name"></property>
+     
+        <property name="admin_email"></property>
+     
+      <property name="admin_password"></property>
+      
+     
+    
+ 
+ </class>
+ 
+ </hibernate-mapping>
